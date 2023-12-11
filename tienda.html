@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - Commerce Tienda</title>
+    <link rel="stylesheet" href="/src/css/normalize.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1><span></span> BTEC </h1>
+            <div class="iconos-tienda">
+                <ul>
+                    <li class="submenu">
+                        <img class="cart" src="src/img/cart2.svg" alt="cart">
+                        <div class="carrito">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Image</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <button class="btn vaciar-carrito">Purchase</button>
+                        </div>
+
+                    </li>
+                </ul>
+                <img id="hamburger" class="hamburger" src="src/img/list.svg" alt="hamburger">
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-navegacion">
+        <nav class="navegacion-principal contenedor">
+            <a href="/index.html">Home</a>
+            
+            <a href="/tienda.html">Store</a>
+            <a href="/galeria.html">Product</a>
+            
+            <a href="/contacto.html">Contact</a>
+            <a href="/profile.html">Profile</a>
+            <a href="/login.html">Login</a>
+            
+            <a href="/register.html">Register</a>
+        </nav>
+    </div>
+
+    <main class="contenedor">
+        <h2>Our products</h2>
+        <div class="contenedor-productos">
+            <div class="producto">
+                <img class="producto-img" src="/src/img/producto1.jpg" alt="Producto 1">
+                <div class="producto-contenido">
+                    <h3 class="producto-nombre">Producto 1</h3>
+                    <p class="producto-texto">At Nguyen Gia Furniture, we are proud to introduce a collection of tables and chairs that bring comfort, style and exceptional quality to your living space.</p>
+                    <p class="precio">$1,000.00</p>
+                    <a class="btn agregar-carrito" data-id="1" href="#">Agregar Carrito</a>
+                </div>
+                <!--Informacion Producto-->
+            </div>
+            <!--producto-->
+            <div class="producto">
+                <img class="producto-img" src="/src/img/producto2.jpg" alt="Producto 2">
+                <div class="producto-contenido">
+                    <h3 class="producto-nombre">Producto 2</h3>
+                    <p class="producto-texto">At Nguyen Gia Furniture, we bring you sofas that are not only a comfortable place to sit but also a masterpiece of art to decorate your living room.</p>
+                    <p class="precio">$1,000.00</p>
+                    <a class="btn agregar-carrito" data-id="2" href="#">Agregar Carrito</a>
+                </div>
+                <!--Informacion Producto-->
+            </div>
+            <!--producto-->
+            <div class="producto">
+                <img class="producto-img" src="/src/img/producto3.jpg" alt="Producto 3">
+                <div class="producto-contenido">
+                    <h3 class="producto-nombre">Producto 3</h3>
+                    <p class="producto-texto">At Nguyen Gia Furniture, we bring you sofas that are not only a comfortable place to sit but also a masterpiece of art to decorate your living room.</p>
+                    <p class="precio">$1,000.00</p>
+                    <a class="btn agregar-carrito" data-id="3" href="#">Agregar Carrito</a>
+                </div>
+                <!--Informacion Producto-->
+            </div>
+            <!--producto-->
+            <div class="producto">
+                <img class="producto-img" src="/src/img/producto4.jpg" alt="Producto 4">
+                <div class="producto-contenido">
+                    <h3 class="producto-nombre">Producto 4</h3>
+                    <p class="producto-texto">At Nguyen Gia Furniture, we are proud to introduce a collection of tables and chairs that bring comfort, style and exceptional quality to your living space.</p>
+                    <p class="precio">$1,000.00</p>
+                    <a class="btn agregar-carrito" data-id="4" href="#">Agregar Carrito</a>
+                </div>
+                <!--Informacion Producto-->
+            </div>
+            <!--producto-->
+            <div class="producto">
+                <img class="producto-img" src="/src/img/producto5.jpg" alt="Producto 5">
+                <div class="producto-contenido">
+                    <h3 class="producto-nombre">Producto 5</h3>
+                    <p class="producto-texto">At Nguyen Gia Furniture, we bring you a comfortable and classy sleeping space with a diverse and quality bed collection.</p>
+                    <p class="precio">$1,000.00</p>
+                    <a class="btn agregar-carrito" data-id="5" href="#">Agregar Carrito</a>
+                </div>
+                <!--Informacion Producto-->
+            </div>
+            <!--producto-->
+            <div class="producto">
+                <img class="producto-img" src="/src/img/producto6.jpg" alt="Producto 6">
+                <div class="producto-contenido">
+                    <h3 class="producto-nombre">Producto 6</h3>
+                    <p class="producto-texto">At Nguyen Gia Furniture, we bring you a comfortable and classy sleeping space with a diverse and quality bed collection.</p>
+                    <p class="precio">$1,000.00</p>
+                    <a class="btn agregar-carrito" data-id="6" href="#">Agregar Carrito</a>
+                </div>
+                <!--Informacion Producto-->
+            </div>
+            <!--producto-->
+        </div>
+        <!--Listado Productos-->
+    </main>
+
+    <footer class="footer">
+        <div class="listado-categorias contenedor">
+            <div class="categoria">
+                <h3>Category</h3>
+                <nav class="nav-footer">
+                    <a href="#">Kitchen</a>
+                    <a href="#">Office</a>
+                    <a href="#">The garden</a>
+                    <a href="#">Garage</a>
+                    <a href="#">Bedroom</a>
+                </nav>
+            </div>
+            <!--div Footer-->
+            <div class="categoria">
+                <h3>About us</h3>
+                <nav class="nav-footer">
+                    <a href="#">Our History</a>
+                    <a href="#">Mission, vision and values</a>
+                    <a href="#">Occupation</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </nav>
+            </div>
+            <!--div Footer-->
+            <div class="categoria">
+                <h3>Categories</h3>
+                <nav class="nav-footer">
+                    <a href="#">Frequently Asked Questions</a>
+                    <a href="#">Online Help</a>
+                    <a href="#">Trust and Security</a>
+                </nav>
+            </div>
+            <!--div Footer-->
+        </div>
+        <p>All Rights Reserved &copy;</p>
+    </footer>
+
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>

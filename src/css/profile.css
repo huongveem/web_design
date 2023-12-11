@@ -1,0 +1,58 @@
+body {
+    font-family: var(--fuentePrincipal);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--blanco);
+}
+h1{
+    color: orange;
+    position: absolute;
+    
+}
+
+#profile-container {
+    text-align: center;
+    max-width: 400px;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#profile-info {
+    margin-top: 20px;
+}
+
+.profile-field {
+    margin-bottom: 10px;
+}
+
+#edit-button {
+    padding: 10px;
+    background-color: greenyellow;
+    color: var(--blanco);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+#edit-button:hover {
+    background-color: green;
+
+}
+#back-btn {
+    padding: 10px;
+    background-color: greenyellow;
+    color: var(--blanco);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
